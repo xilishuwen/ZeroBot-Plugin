@@ -219,8 +219,8 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana := flag.String("n", "椛椛", "Set default nickname.")
-	prefix := flag.String("p", "/", "Set command prefix.")
+	adana := flag.String("n", "希尔薇", "Set default nickname.")
+	prefix := flag.String("p", "希尔薇", "Set command prefix.")
 	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
 	late := flag.Uint("l", 233, "Response latency (ms).")
@@ -252,8 +252,8 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
-	// sus = append(sus, 87654321)
+	// sus = append(sus, 3580824868)
+	// sus = append(sus, 8684280835)
 
 	// 启用 webui
 	// go webctrl.RunGui(*g)
